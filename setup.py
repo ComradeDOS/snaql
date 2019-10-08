@@ -12,7 +12,7 @@ setup(
     description='Transparant *QL usage without ORM',
     long_description='Transparant *QL usage without ORM',
     install_requires=[
-        'Jinja2==2.8',
+        'Jinja2>=2.10,<2.11',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
