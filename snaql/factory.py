@@ -213,7 +213,7 @@ class Snaql(object):
 
         fn.__doc__ = meta_struct['funcs'][name]['note']
         fn.is_cond = meta_struct['funcs'][name]['is_cond']
-        fn.func_name = name
+        fn.func_name = str(name)
 
         return fn
 
